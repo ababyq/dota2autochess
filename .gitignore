@@ -2,6 +2,9 @@
 source/node_modules/
 source/unpackage/
 
+# Data files
+data/
+
 # Editor directories
 .hbuilderx/
 .history/
