@@ -19,56 +19,56 @@
 - 详细的技能描述和技能类型
 - 棋子头像和图标资源
 
-![棋子列表](screenshots/1、棋子.png)
-![棋子详情](screenshots/2、棋子详情.png)
+![棋子列表](screenshots/1-chess-list.png)
+![棋子详情](screenshots/2-chess-detail.png)
 
 ### 2. 种族羁绊
 - 种族羁绊（人类、精灵、兽人等）
 - 种族羁绊激活条件和效果说明
 - 种族羁绊等级和加成数据
 
-![种族羁绊](screenshots/3、种族.png)
+![种族羁绊](screenshots/3-race.png)
 
 ### 3. 职业羁绊
 - 职业羁绊（战士、刺客、法师等）
 - 职业羁绊激活条件和效果说明
 - 职业羁绊等级和加成数据
 
-![职业羁绊](screenshots/4、职业.png)
+![职业羁绊](screenshots/4-occupation.png)
 
 ### 4. 羁绊系统
 - 羁绊组合查询
 - 羁绊速览和详情面板
 - 羁绊加成效果展示
 
-![羁绊系统](screenshots/5、羁绊.png)
+![羁绊系统](screenshots/5-fetter.png)
 
 ### 5. 选择面板
 - 羁绊速览功能
 - 羁绊详情查看
 - 阵容搭配辅助
 
-![选择面板-羁绊速览](screenshots/1.1、选择面板-羁绊速览.png)
-![选择面板-羁绊详情](screenshots/1.2、选择面板-羁绊详情.png)
+![选择面板-羁绊速览](screenshots/1.1-selection-fetter-overview.png)
+![选择面板-羁绊详情](screenshots/1.2-selection-fetter-detail.png)
 
 ### 6. 装备图鉴
 - 完整的装备数据库（800+ 装备图标）
 - 装备分类和属性展示
 - 合成路径查询
 
-![装备图鉴](screenshots/6、装备.png)
+![装备图鉴](screenshots/6-item.png)
 
 ### 7. 圣物系统
 - 游戏内所有圣物信息
 - 圣物效果和获取方式
 
-![圣物系统](screenshots/7、圣物.png)
+![圣物系统](screenshots/7-relic.png)
 
 ### 8. 娱乐功能
 - 钓鱼模拟器
 - 休闲小游戏
 
-![钓鱼模拟](screenshots/8、钓鱼模拟.png)
+![钓鱼模拟](screenshots/8-fishing-simulator.png)
 
 ## 技术栈
 
