@@ -1,7 +1,12 @@
-node_modules/
-unpackage/
+# Dependencies and build output
+source/node_modules/
+source/unpackage/
+
+# Editor directories
 .hbuilderx/
 .history/
 .workbuddy/
+
+# OS files
 .DS_Store
 *.log
