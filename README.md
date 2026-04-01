@@ -19,56 +19,56 @@
 - 详细的技能描述和技能类型
 - 棋子头像和图标资源
 
-<img src="screenshots/1-chess-list.png" width="400" alt="棋子列表"/>
-<img src="screenshots/2-chess-detail.png" width="400" alt="棋子详情"/>
+<img src="screenshots/1-chess-list.png" width="300" alt="棋子列表"/>
+<img src="screenshots/2-chess-detail.png" width="300" alt="棋子详情"/>
 
 ### 2. 种族羁绊
 - 种族羁绊（人类、精灵、兽人等）
 - 种族羁绊激活条件和效果说明
 - 种族羁绊等级和加成数据
 
-<img src="screenshots/3-race.png" width="400" alt="种族羁绊"/>
+<img src="screenshots/3-race.png" width="300" alt="种族羁绊"/>
 
 ### 3. 职业羁绊
 - 职业羁绊（战士、刺客、法师等）
 - 职业羁绊激活条件和效果说明
 - 职业羁绊等级和加成数据
 
-<img src="screenshots/4-occupation.png" width="400" alt="职业羁绊"/>
+<img src="screenshots/4-occupation.png" width="300" alt="职业羁绊"/>
 
 ### 4. 羁绊系统
 - 羁绊组合查询
 - 羁绊速览和详情面板
 - 羁绊加成效果展示
 
-<img src="screenshots/5-fetter.png" width="400" alt="羁绊系统"/>
+<img src="screenshots/5-fetter.png" width="300" alt="羁绊系统"/>
 
 ### 5. 选择面板
 - 羁绊速览功能
 - 羁绊详情查看
 - 阵容搭配辅助
 
-<img src="screenshots/1.1-selection-fetter-overview.png" width="400" alt="选择面板-羁绊速览"/>
-<img src="screenshots/1.2-selection-fetter-detail.png" width="400" alt="选择面板-羁绊详情"/>
+<img src="screenshots/1.1-selection-fetter-overview.png" width="300" alt="选择面板-羁绊速览"/>
+<img src="screenshots/1.2-selection-fetter-detail.png" width="300" alt="选择面板-羁绊详情"/>
 
 ### 6. 装备图鉴
 - 完整的装备数据库（800+ 装备图标）
 - 装备分类和属性展示
 - 合成路径查询
 
-<img src="screenshots/6-item.png" width="400" alt="装备图鉴"/>
+<img src="screenshots/6-item.png" width="300" alt="装备图鉴"/>
 
 ### 7. 圣物系统
 - 游戏内所有圣物信息
 - 圣物效果和获取方式
 
-<img src="screenshots/7-relic.png" width="400" alt="圣物系统"/>
+<img src="screenshots/7-relic.png" width="300" alt="圣物系统"/>
 
 ### 8. 娱乐功能
 - 钓鱼模拟器
 - 休闲小游戏
 
-<img src="screenshots/8-fishing-simulator.png" width="400" alt="钓鱼模拟"/>
+<img src="screenshots/8-fishing-simulator.png" width="300" alt="钓鱼模拟"/>
 
 ## 技术栈
 
@@ -112,45 +112,9 @@ zizouqi/
 
 ## 快速开始
 
-### 安装依赖
-
-```bash
-npm install
-```
-
 ### 开发运行
 
-#### H5 开发
-```bash
-npm run dev:h5
-```
-
-#### 微信小程序开发
-```bash
-npm run dev:mp-weixin
-```
-
-#### Android 开发
-```bash
-npm run dev:app-plus
-```
-
-### 生产构建
-
-#### 构建 H5
-```bash
-npm run build:h5
-```
-
-#### 构建微信小程序
-```bash
-npm run build:mp-weixin
-```
-
-#### 构建 Android/iOS
-```bash
-npm run build:app-plus
-```
+推荐用uniapp的构建工具 Hbuildx 进行构建、开发
 
 ## 数据说明
 
@@ -228,8 +192,6 @@ npm run build:app-plus
 
 - 使用 Vue 2.x 语法
 - 遵循 uni-app 开发规范
-- 组件命名使用 kebab-case
-- 数据绑定使用 v-model
 
 ### 注意事项
 
@@ -268,7 +230,7 @@ npm run build:app-plus
 ## 联系方式
 
 如有问题或建议，欢迎通过 GitHub Issues 联系。
-
+QQ邮箱 405434387@qq.com
 ---
 
 **Made with ❤️ for Dota2 AutoChess Players**
