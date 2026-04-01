@@ -11,7 +11,7 @@
  Target Server Version : 80036
  File Encoding         : 65001
 
- Date: 01/04/2026 14:53:13
+ Date: 01/04/2026 16:12:05
 */
 
 SET NAMES utf8mb4;
@@ -111,7 +111,7 @@ INSERT INTO `chess` VALUES (67, 'doom，末日', 1, '末日守卫', '1', '23', 4
 INSERT INTO `chess` VALUES (68, '墨客', 0, '天涯墨客', '9', '23', 4, 68, 'npc_dota_hero_grimstroke_png.png', 'chess_gs_png.png', 'gs_mingyunzhibi', '命运之笔：战斗回合开始前圈出若干个敌方棋子，对其施加缚魂效果', '战吼');
 INSERT INTO `chess` VALUES (69, '小强，夜神', 1, '司夜刺客', '2', '22,29', 4, 69, 'npc_dota_hero_nyx_assassin_png.png', 'chess_na_png.png', 'nyx_assassin_spiked_carapace_datadriven', '尖刺外壳：激活尖刺外壳，反弹并无效化受到的伤害，同时眩晕攻击者', '无目标');
 INSERT INTO `chess` VALUES (70, '蜘蛛', 1, '育母蜘蛛', '3', '29', 4, 70, 'npc_dota_hero_broodmother_png.png', 'chess_br_png.png', 'br_web_new', '丝质重器：缠绕最近的目标，使其攻击有概率落空，被攻击受额外魔法伤害，死亡孵化小蜘蛛', '被动');
-INSERT INTO `chess` VALUES (71, '小牛', 1, '撼地神牛', '10', '31', 4, 71, 'npc_dota_hero_earthshaker_png.png', 'chess_es_png.png', 'gouhe', '沟壑：用图腾猛击地面，裂开地面制造岩脊，击飞敌人并造成物理伤害和眩晕', '点目标');
+INSERT INTO `chess` VALUES (71, '小牛', 1, '撼地神牛', '10', '31', 3, 71, 'npc_dota_hero_earthshaker_png.png', 'chess_es_png.png', 'gouhe', '沟壑：用图腾猛击地面，裂开地面制造岩脊，击飞敌人并造成物理伤害和眩晕', '点目标');
 INSERT INTO `chess` VALUES (72, '萨尔', 1, '干扰者', '10', '14', 5, 72, 'npc_dota_hero_disruptor_png.png', 'chess_disruptor_png.png', 'ability_disruptor_static_storm', '静态风暴：创造静态风暴，沉默并魔法伤害区域内的敌人，伤害逐渐增强', '点目标');
 INSERT INTO `chess` VALUES (73, '大圣', 1, '齐天大圣', '12', '20', 4, 73, 'npc_dota_hero_monkey_king_png.png', 'chess_mk_png.png', 'mk_ruyibangfa', '如意棒法：普通攻击累计伤害后，使用棒击大地，对直线敌人造成暴击伤害和眩晕', '被动');
 INSERT INTO `chess` VALUES (74, '卡尔', 1, '祈求者', '4', '15', 5, 74, 'npc_dota_hero_invoker_png.png', 'chess_kael_png.png', 'invoke', '元素祈唤：召唤三个随机的元素精华并将它们融合为祈唤法术供祈求者施放', '被动');
