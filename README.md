@@ -112,45 +112,9 @@ zizouqi/
 
 ## 快速开始
 
-### 安装依赖
-
-```bash
-npm install
-```
-
 ### 开发运行
 
-#### H5 开发
-```bash
-npm run dev:h5
-```
-
-#### 微信小程序开发
-```bash
-npm run dev:mp-weixin
-```
-
-#### Android 开发
-```bash
-npm run dev:app-plus
-```
-
-### 生产构建
-
-#### 构建 H5
-```bash
-npm run build:h5
-```
-
-#### 构建微信小程序
-```bash
-npm run build:mp-weixin
-```
-
-#### 构建 Android/iOS
-```bash
-npm run build:app-plus
-```
+推荐用uniapp的构建工具 Hbuildx 进行构建、开发
 
 ## 数据说明
 
@@ -228,8 +192,6 @@ npm run build:app-plus
 
 - 使用 Vue 2.x 语法
 - 遵循 uni-app 开发规范
-- 组件命名使用 kebab-case
-- 数据绑定使用 v-model
 
 ### 注意事项
 
@@ -268,7 +230,7 @@ npm run build:app-plus
 ## 联系方式
 
 如有问题或建议，欢迎通过 GitHub Issues 联系。
-
+QQ邮箱 405434387@qq.com
 ---
 
 **Made with ❤️ for Dota2 AutoChess Players**
