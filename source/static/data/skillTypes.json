@@ -1,0 +1,44 @@
+[
+		{
+			"code": "_G.ability_behavior_list[a] == 0",
+			"desc": "不需要主动释放的技能，常驻效果",
+			"id": 1,
+			"name": "被动"
+		},
+		{
+			"code": "_G.ability_behavior_list[a] == 1",
+			"desc": "需要选择一个敌方/友方目标释放",
+			"id": 2,
+			"name": "指向性"
+		},
+		{
+			"code": "_G.ability_behavior_list[a] == 2",
+			"desc": "直接释放，不需要选择目标",
+			"id": 3,
+			"name": "无目标"
+		},
+		{
+			"code": "_G.ability_behavior_list[a] == 3",
+			"desc": "需要选择一个位置（格子）释放",
+			"id": 4,
+			"name": "点目标"
+		},
+		{
+			"code": "_G.ability_behavior_list[a] == 0 且有特殊标记",
+			"desc": "战斗回合开始前自动触发",
+			"id": 5,
+			"name": "战吼"
+		},
+		{
+			"code": "羁绊技能或部分装备效果",
+			"desc": "持续对周围单位生效",
+			"id": 6,
+			"name": "光环"
+		},
+		{
+			"code": "_G.ability_behavior_list[a] 特殊值",
+			"desc": "需要引导的技能",
+			"id": 7,
+			"name": "持续施法"
+		}
+	]

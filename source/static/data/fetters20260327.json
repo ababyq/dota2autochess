@@ -1,0 +1,666 @@
+[
+  {
+    "condition": 3,
+    "desc": "所有友方战士护甲+3",
+    "id": 1,
+    "majorId": "1",
+    "name": "3战士",
+    "type": 0
+  },
+  {
+    "condition": 6,
+    "desc": "所有友方战士护甲+11",
+    "id": 2,
+    "majorId": "1",
+    "name": "6战士",
+    "type": 0
+  },
+  {
+    "condition": 9,
+    "desc": "所有友军受到物理/魔法伤害时反弹（当前护甲×1.5）点纯粹伤害",
+    "id": 3,
+    "majorId": "1",
+    "name": "9战士",
+    "type": 0
+  },
+  {
+    "condition": 3,
+    "desc": "所有友方刺客攻击有15%概率造成3倍伤害",
+    "id": 4,
+    "majorId": "2",
+    "name": "3刺客",
+    "type": 0
+  },
+  {
+    "condition": 6,
+    "desc": "所有友方刺客攻击有15%概率造成4倍伤害",
+    "id": 5,
+    "majorId": "2",
+    "name": "6刺客",
+    "type": 0
+  },
+  {
+    "condition": 9,
+    "desc": "刺客背刺跳跃必造成最高暴击，击杀敌人获得一次额外背刺跳跃",
+    "id": 6,
+    "majorId": "2",
+    "name": "9刺客",
+    "type": 0
+  },
+  {
+    "condition": 3,
+    "desc": "猎人攻击有50%概率无视闪避，目标护甲-5，持续5秒",
+    "id": 7,
+    "majorId": "3",
+    "name": "3猎人",
+    "type": 0
+  },
+  {
+    "condition": 6,
+    "desc": "猎人攻击有100%概率无视闪避，目标护甲-10，持续10秒",
+    "id": 8,
+    "majorId": "3",
+    "name": "6猎人",
+    "type": 0
+  },
+  {
+    "condition": 9,
+    "desc": "精准射击击退敌人1格并发动一次额外攻击",
+    "id": 9,
+    "majorId": "3",
+    "name": "9猎人",
+    "type": 0
+  },
+  {
+    "condition": 3,
+    "desc": "所有敌军魔法抗性-30%",
+    "id": 10,
+    "majorId": "4",
+    "name": "3法师",
+    "type": 0
+  },
+  {
+    "condition": 6,
+    "desc": "所有敌军魔法抗性-35%",
+    "id": 11,
+    "majorId": "4",
+    "name": "6法师",
+    "type": 0
+  },
+  {
+    "condition": 9,
+    "desc": "敌军受到魔法伤害时冻结，伤害越高冻结越长（0.5秒起）",
+    "id": 12,
+    "majorId": "4",
+    "name": "9法师",
+    "type": 0
+  },
+  {
+    "condition": 2,
+    "desc": "骑士每3秒有25%概率获得减伤护盾",
+    "id": 13,
+    "majorId": "5",
+    "name": "2骑士",
+    "type": 0
+  },
+  {
+    "condition": 4,
+    "desc": "所有友军每3秒有25%概率获得减伤护盾",
+    "id": 14,
+    "majorId": "5",
+    "name": "4骑士",
+    "type": 0
+  },
+  {
+    "condition": 6,
+    "desc": "所有友军每3秒有25%概率获得减伤护盾，触发时额外+300治疗",
+    "id": 15,
+    "majorId": "5",
+    "name": "6骑士",
+    "type": 0
+  },
+  {
+    "condition": 2,
+    "desc": "所有友军获得5%伤害吸血",
+    "id": 16,
+    "majorId": "6",
+    "name": "2术士",
+    "type": 0
+  },
+  {
+    "condition": 4,
+    "desc": "所有友军获得20%伤害吸血",
+    "id": 17,
+    "majorId": "6",
+    "name": "4术士",
+    "type": 0
+  },
+  {
+    "condition": 6,
+    "desc": "友方术士造成伤害时吸取目标50%生命值上限",
+    "id": 18,
+    "majorId": "6",
+    "name": "6术士",
+    "type": 0
+  },
+  {
+    "condition": 3,
+    "desc": "主场获胜且有工匠存活，下回合获得机械之心",
+    "id": 19,
+    "majorId": "7",
+    "name": "3工匠",
+    "type": 0
+  },
+  {
+    "condition": 6,
+    "desc": "机械之心升级为金色",
+    "id": 20,
+    "majorId": "7",
+    "name": "6工匠",
+    "type": 0
+  },
+  {
+    "condition": 2,
+    "desc": "2个★德鲁伊可合成为★★",
+    "id": 21,
+    "majorId": "8",
+    "name": "2德鲁伊",
+    "type": 0
+  },
+  {
+    "condition": 4,
+    "desc": "2个★★德鲁伊可合成为★★★",
+    "id": 22,
+    "majorId": "8",
+    "name": "4德鲁伊",
+    "type": 0
+  },
+  {
+    "condition": 6,
+    "desc": "2个★★★德鲁伊可合成为万灵祭坛，获得祭坛之力",
+    "id": 23,
+    "majorId": "8",
+    "name": "6德鲁伊",
+    "type": 0
+  },
+  {
+    "condition": 2,
+    "desc": "4人以上羁绊需求-1",
+    "id": 24,
+    "majorId": "9",
+    "name": "2巫师",
+    "type": 0
+  },
+  {
+    "condition": 3,
+    "desc": "唯一羁绊解锁所有层数",
+    "id": 25,
+    "majorId": "9",
+    "name": "3巫师",
+    "type": 0
+  },
+  {
+    "condition": 3,
+    "desc": "施法后变形为等级+2的随机棋子",
+    "id": 26,
+    "majorId": "10",
+    "name": "3萨满",
+    "type": 0
+  },
+  {
+    "condition": 6,
+    "desc": "变形时装备也变为等级+2随机装备",
+    "id": 27,
+    "majorId": "10",
+    "name": "6萨满",
+    "type": 0
+  },
+  {
+    "condition": 2,
+    "desc": "主场战败受伤时，若棋子未满获得树之祭祀",
+    "id": 28,
+    "majorId": "11",
+    "name": "2牧师",
+    "type": 0
+  },
+  {
+    "condition": 4,
+    "desc": "每个牧师可精神控制一个不高于自身等级的敌方棋子",
+    "id": 29,
+    "majorId": "11",
+    "name": "4牧师",
+    "type": 0
+  },
+  {
+    "condition": 2,
+    "desc": "近战武僧有概率秒杀低生命值敌人",
+    "id": 30,
+    "majorId": "12",
+    "name": "2武僧",
+    "type": 0
+  },
+  {
+    "condition": 4,
+    "desc": "武僧有概率使敌人当前生命值减半",
+    "id": 31,
+    "majorId": "12",
+    "name": "4武僧",
+    "type": 0
+  },
+  {
+    "condition": 2,
+    "desc": "所有友方恶魔视为同一种类",
+    "id": 32,
+    "majorId": "13",
+    "name": "2恶魔猎手",
+    "type": 0
+  },
+  {
+    "condition": 4,
+    "desc": "友军造成的所有伤害结算为纯粹伤害",
+    "id": 33,
+    "majorId": "13",
+    "name": "4恶魔猎手",
+    "type": 0
+  },
+  {
+    "condition": 2,
+    "desc": "所有友军最大生命值+100",
+    "id": 34,
+    "majorId": "14",
+    "name": "2兽人",
+    "type": 1
+  },
+  {
+    "condition": 4,
+    "desc": "所有友军最大生命值+300",
+    "id": 35,
+    "majorId": "14",
+    "name": "4兽人",
+    "type": 1
+  },
+  {
+    "condition": 6,
+    "desc": "友军获得已损失生命值×10的最大生命值",
+    "id": 36,
+    "majorId": "14",
+    "name": "6兽人",
+    "type": 1
+  },
+  {
+    "condition": 3,
+    "desc": "精灵有25%闪避",
+    "id": 37,
+    "majorId": "15",
+    "name": "3精灵",
+    "type": 1
+  },
+  {
+    "condition": 6,
+    "desc": "精灵有40%闪避",
+    "id": 38,
+    "majorId": "15",
+    "name": "6精灵",
+    "type": 1
+  },
+  {
+    "condition": 9,
+    "desc": "闪避时隐身1秒并复制攻击者镜像",
+    "id": 39,
+    "majorId": "15",
+    "name": "9精灵",
+    "type": 1
+  },
+  {
+    "condition": 3,
+    "desc": "准备回合获得2经验",
+    "id": 40,
+    "majorId": "16",
+    "name": "3人类",
+    "type": 1
+  },
+  {
+    "condition": 6,
+    "desc": "主场获胜且有1个人类存活，获得（信使等级-2）经验",
+    "id": 41,
+    "majorId": "16",
+    "name": "6人类",
+    "type": 1
+  },
+  {
+    "condition": 2,
+    "desc": "友军获得15%技能伤害护盾",
+    "id": 42,
+    "majorId": "17",
+    "name": "2娜迦",
+    "type": 1
+  },
+  {
+    "condition": 4,
+    "desc": "友军获得30%技能伤害护盾",
+    "id": 43,
+    "majorId": "17",
+    "name": "4娜迦",
+    "type": 1
+  },
+  {
+    "condition": 6,
+    "desc": "娜迦护盾每3秒对周围造成（吸收伤害）魔法伤害",
+    "id": 44,
+    "majorId": "17",
+    "name": "6娜迦",
+    "type": 1
+  },
+  {
+    "condition": 2,
+    "desc": "友军攻速+20%",
+    "id": 45,
+    "majorId": "18",
+    "name": "2巨魔",
+    "type": 1
+  },
+  {
+    "condition": 4,
+    "desc": "友军攻速+50%",
+    "id": 46,
+    "majorId": "18",
+    "name": "4巨魔",
+    "type": 1
+  },
+  {
+    "condition": 6,
+    "desc": "每次攻击命中攻速+20%，最多7层",
+    "id": 47,
+    "majorId": "18",
+    "name": "6巨魔",
+    "type": 1
+  },
+  {
+    "condition": 3,
+    "desc": "随机近战友军护甲+10，生命回复+20",
+    "id": 48,
+    "majorId": "19",
+    "name": "3地精",
+    "type": 1
+  },
+  {
+    "condition": 6,
+    "desc": "所有友军护甲+10，生命回复+20",
+    "id": 49,
+    "majorId": "19",
+    "name": "6地精",
+    "type": 1
+  },
+  {
+    "condition": 2,
+    "desc": "友军攻击力+10%",
+    "id": 50,
+    "majorId": "20",
+    "name": "2野兽",
+    "type": 1
+  },
+  {
+    "condition": 4,
+    "desc": "友军攻击力+25%",
+    "id": 51,
+    "majorId": "20",
+    "name": "4野兽",
+    "type": 1
+  },
+  {
+    "condition": 6,
+    "desc": "物理攻击使敌人永久叠加10%物理易伤，最多10层",
+    "id": 52,
+    "majorId": "20",
+    "name": "6野兽",
+    "type": 1
+  },
+  {
+    "condition": 2,
+    "desc": "食人魔开场吞噬相邻格不高于自身等级的友军，获得60%生命/攻击",
+    "id": 53,
+    "majorId": "21",
+    "name": "2食人魔",
+    "type": 1
+  },
+  {
+    "condition": 3,
+    "desc": "所有非亡灵生命上限-10%",
+    "id": 54,
+    "majorId": "22",
+    "name": "3亡灵",
+    "type": 1
+  },
+  {
+    "condition": 6,
+    "desc": "所有非亡灵生命上限-35%",
+    "id": 55,
+    "majorId": "22",
+    "name": "6亡灵",
+    "type": 1
+  },
+  {
+    "condition": 9,
+    "desc": "非亡灵每2秒生命上限-5%",
+    "id": 56,
+    "majorId": "22",
+    "name": "9亡灵",
+    "type": 1
+  },
+  {
+    "condition": 1,
+    "desc": "恶魔普攻为纯粹伤害，每同名友方恶魔+15%伤害，最多7层",
+    "id": 57,
+    "majorId": "23",
+    "name": "1恶魔",
+    "type": 1
+  },
+  {
+    "condition": 2,
+    "desc": "元素被近战攻击15%概率石化攻击者3秒",
+    "id": 58,
+    "majorId": "24",
+    "name": "2元素",
+    "type": 1
+  },
+  {
+    "condition": 4,
+    "desc": "全体友军被攻击15%概率石化攻击者3秒",
+    "id": 59,
+    "majorId": "24",
+    "name": "4元素",
+    "type": 1
+  },
+  {
+    "condition": 3,
+    "desc": "龙初始法力值100",
+    "id": 60,
+    "majorId": "25",
+    "name": "3龙",
+    "type": 1
+  },
+  {
+    "condition": 5,
+    "desc": "所有友军初始法力值100",
+    "id": 61,
+    "majorId": "25",
+    "name": "5龙",
+    "type": 1
+  },
+  {
+    "condition": 2,
+    "desc": "所有友方远程矮人棋子获得效果：攻击距离+200，对敌人造成的任何物理伤害都会有每1格距离+15%的伤害加成",
+    "id": 62,
+    "majorId": "27",
+    "name": "2矮人",
+    "type": 1
+  },
+  {
+    "condition": 2,
+    "desc": "所有友方棋子技能冷却时间-30%",
+    "id": 63,
+    "majorId": "28",
+    "name": "2神",
+    "type": 1
+  },
+  {
+    "condition": 4,
+    "desc": "所有友方棋子技能冷却时间-30%（可叠加）",
+    "id": 64,
+    "majorId": "28",
+    "name": "4神",
+    "type": 1
+  },
+  {
+    "condition": 6,
+    "desc": "消耗法力值释放技能会使主动技能和物品的当前剩余冷却时间-60%",
+    "id": 65,
+    "majorId": "28",
+    "name": "6神",
+    "type": 1
+  },
+  {
+    "condition": 2,
+    "desc": "使所有非虫族友方棋子获得亡语：如果场上有与它同名的被感染的友方棋子存活，原地孵化一只随机虫族棋子",
+    "id": 66,
+    "majorId": "29",
+    "name": "2虫",
+    "type": 1
+  },
+  {
+    "condition": 4,
+    "desc": "使所有友方虫族棋子也获得该亡语，并且孵化的虫族棋子等级相当于同名棋子最高等级+1",
+    "id": 67,
+    "majorId": "29",
+    "name": "4虫",
+    "type": 1
+  },
+  {
+    "condition": 1,
+    "desc": "回合开始时有10%的概率邀请一个与场上友方棋子同种族的不在场棋子",
+    "id": 68,
+    "majorId": "30",
+    "name": "1熊猫人",
+    "type": 1
+  },
+  {
+    "condition": 2,
+    "desc": "回合开始时场上每个友方熊猫人棋子都有15%的概率邀请一个同名熊猫人棋子",
+    "id": 69,
+    "majorId": "30",
+    "name": "2熊猫人",
+    "type": 1
+  },
+  {
+    "condition": 2,
+    "desc": "战斗开始时召唤一个稻草人图腾",
+    "id": 70,
+    "majorId": "31",
+    "name": "2牛头人",
+    "type": 1
+  },
+  {
+    "condition": 4,
+    "desc": "战斗开始时召唤一个啄木鸟图腾和一个蛮牛角图腾",
+    "id": 71,
+    "majorId": "31",
+    "name": "4牛头人",
+    "type": 1
+  },
+  {
+    "condition": 1,
+    "desc": "为每种两两相同的友方狗头人棋子召唤一个复制品",
+    "id": 72,
+    "majorId": "32",
+    "name": "1狗头人",
+    "type": 1
+  },
+  {
+    "condition": 2,
+    "desc": "为每种两两相同的友方非狗头人棋子召唤一个复制品",
+    "id": 73,
+    "majorId": "32",
+    "name": "2狗头人",
+    "type": 1
+  },
+  {
+    "condition": 3,
+    "desc": "友方狗头人棋子会将自己塑形为一个同星的非狗头人友方棋子，以凑成两两相同",
+    "id": 74,
+    "majorId": "32",
+    "name": "3狗头人",
+    "type": 1
+  },
+  {
+    "condition": 1,
+    "desc": "除无面者以外，如果你没有触发任何种族/职业技能，全体友军获得效果：免疫所有战斗时产生的不良状态",
+    "id": 75,
+    "majorId": "33",
+    "name": "1无面者",
+    "type": 1
+  },
+  {
+    "condition": 2,
+    "desc": "所有友方棋子获得效果：对敌人施放的指向性法术+1目标数量",
+    "id": 76,
+    "majorId": "34",
+    "name": "2鹰身人",
+    "type": 1
+  },
+  {
+    "condition": 4,
+    "desc": "所有友方棋子获得效果：对敌人施放的指向性法术+1目标数量",
+    "id": 77,
+    "majorId": "34",
+    "name": "4鹰身人",
+    "type": 1
+  },
+  {
+    "condition": 2,
+    "desc": "所有友方半人马棋子获得效果：开始战斗时立即冲锋到周围敌方棋子最多的目标格子，并撞晕路径上的敌方棋子",
+    "id": 78,
+    "majorId": "35",
+    "name": "2半人马",
+    "type": 1
+  },
+  {
+    "condition": 4,
+    "desc": "所有近战友方棋子的每次移动都是奔袭冲撞",
+    "id": 79,
+    "majorId": "35",
+    "name": "4半人马",
+    "type": 1
+  },
+  {
+    "condition": 2,
+    "desc": "每5秒从最近的敌方棋子偷取（50+2%%最大生命值）点生命值治疗自己",
+    "id": 80,
+    "majorId": "36",
+    "name": "2德莱尼",
+    "type": 1
+  },
+  {
+    "condition": 4,
+    "desc": "所有友方棋子获得效果：每当累计受到超过100点治疗会对周围敌人造成等于（累计治疗量）的纯粹伤害",
+    "id": 81,
+    "majorId": "36",
+    "name": "4德莱尼",
+    "type": 1
+  },
+  {
+    "condition": 1,
+    "desc": "免疫精神控制，并且累计受到一定量的伤害会自动驱散自身的所有负面状态",
+    "id": 82,
+    "majorId": "41",
+    "name": "1远古",
+    "type": 1
+  },
+  {
+    "condition": 6,
+    "desc": "石化的持续时间延长1秒，并且被石化的敌人受到的所有伤害+100%。",
+    "id": 83,
+    "majorId": "24",
+    "name": "6元素",
+    "type": 1
+  }
+]

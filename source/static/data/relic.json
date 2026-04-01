@@ -1,0 +1,282 @@
+[
+  {
+    "code": "item_upgrade_lootbox",
+    "desc": "你重铸装备获得的战利品代币的等级+1。武器匠累计重铸2次战利品代币后就会离去",
+    "id": 1,
+    "image_url": "item_custom/哼哼井武器匠.png",
+    "isuse": 1,
+    "level": 0,
+    "name": "哼哼井武器匠",
+    "type": "圣物"
+  },
+  {
+    "code": "item_streak_plus",
+    "desc": "你的连胜/连败不会中断。圣物消失时将根据持有期间最高的奖励/补偿和本局已选取圣物数量获得一个战利品代币",
+    "id": 2,
+    "image_url": "item_custom/明暗终途2.png",
+    "isuse": 1,
+    "level": 0,
+    "name": "明暗终途",
+    "type": "圣物"
+  },
+  {
+    "code": "item_conceal_prepare",
+    "desc": "在准备回合隐匿棋盘上的棋子。当你的信使受到伤害时，下个非战利品回合会同时隐匿信使并跳过战斗阶段",
+    "id": 3,
+    "image_url": "item_custom/帷幕2.png",
+    "isuse": 1,
+    "level": 0,
+    "name": "帷幕",
+    "type": "圣物"
+  },
+  {
+    "code": "item_free_ban",
+    "desc": "你可以免费屏蔽任意种族/职业。如果已经屏蔽，则返还所花费的金币",
+    "id": 4,
+    "image_url": "item_custom/狱卒的钥匙2.png",
+    "isuse": 1,
+    "level": 0,
+    "name": "狱卒的钥匙",
+    "type": "圣物"
+  },
+  {
+    "code": "item_second_chance",
+    "desc": "当你使用选项类消耗性物品，或每回合开始自动招募棋子时有机会刷新一次选项面板，获取其他的选择",
+    "id": 5,
+    "image_url": "item_custom/第二次机会.png",
+    "isuse": 1,
+    "level": 0,
+    "name": "第二次机会",
+    "type": "圣物"
+  },
+  {
+    "code": "item_egg",
+    "desc": "将一个棋子放进蛋中，每个回合开始时蛋都有概率长大，你可以随时出售蛋并重新孵化出该棋子，它的星级取决于蛋的大小",
+    "id": 6,
+    "image_url": "precious_egg_png.png",
+    "isuse": 1,
+    "level": 0,
+    "name": "贪魔蛋",
+    "type": "圣物"
+  },
+  {
+    "code": "item_bench_contract",
+    "desc": "用菜苗填满你的等待席，回合开始时每颗菜的出售价值都有概率+1。你可以随时出售它们而启用等待席",
+    "id": 7,
+    "image_url": "item_custom/item_magic_seed.png",
+    "isuse": 1,
+    "level": 0,
+    "name": "魔法种子",
+    "type": "圣物"
+  },
+  {
+    "code": "item_mangotree",
+    "desc": "在你的棋盘旁边种植一棵芒果树。每当你主场的战斗结果和上一回合不同，就会掉落1个魔法芒果，累计掉落8个后芒果树会枯萎",
+    "id": 8,
+    "image_url": "mango_tree_png.png",
+    "isuse": 1,
+    "level": 0,
+    "name": "芒果树",
+    "type": "圣物"
+  },
+  {
+    "code": "item_more_creep",
+    "desc": "你在战利品回合迎战的野怪数量×2，并且视为等级+1",
+    "id": 9,
+    "image_url": "item_custom/more_creep.png",
+    "isuse": 1,
+    "level": 0,
+    "name": "百兽大游行",
+    "type": "圣物"
+  },
+  {
+    "code": "item_malefic_rapture",
+    "desc": "当你的信使受到伤害时，立即获得（受到的伤害）点经验值",
+    "id": 10,
+    "image_url": "item_custom/zainankuanghuan.png",
+    "isuse": 1,
+    "level": 0,
+    "name": "灾难狂欢",
+    "type": "圣物"
+  },
+  {
+    "code": "item_rm_wheel_of_wonder",
+    "desc": "指定一个友方棋子投入奇观轮，从它的五个获得额外种族或职业的同名棋子中进行一次发现",
+    "id": 11,
+    "image_url": "item_custom/rm_wheel_of_wonder.png",
+    "isuse": 1,
+    "level": 0,
+    "name": "奇观轮",
+    "type": "圣物"
+  },
+  {
+    "code": "item_both_leaves",
+    "desc": "在本局游戏中，你会自动解锁天赋树的另一边天赋",
+    "id": 12,
+    "image_url": "seeds_of_serenity_png.png",
+    "isuse": 1,
+    "level": 0,
+    "name": "复叶精魂",
+    "type": "圣物"
+  },
+  {
+    "code": "item_magic_box",
+    "desc": "指定一个等待席上的友方棋子，在下一回合开始时将它们变成同等级同星的其他棋子。可以使用12次",
+    "id": 13,
+    "image_url": "item_custom/magic_box.png",
+    "isuse": 1,
+    "level": 0,
+    "name": "魔术箱",
+    "type": "圣物"
+  },
+  {
+    "code": "item_double_coin",
+    "desc": "如果你的生命值大于金币数，将当前生命值的20%转化为金币；如果你的生命值小于金币数，将当前金币的20%转化为生命值。可以使用2次",
+    "id": 14,
+    "image_url": "doubloon_png.png",
+    "isuse": 1,
+    "level": 0,
+    "name": "双面币",
+    "type": "圣物"
+  },
+  {
+    "code": "item_repeat_relic",
+    "desc": "重复使用你的上一个圣物。如果你没有上一个圣物，复刻时空将随机一个圣物，并且该圣物不被视为已选择过",
+    "id": 15,
+    "image_url": "item_custom/repeat_relic.png",
+    "isuse": 1,
+    "level": 0,
+    "name": "复刻时空",
+    "type": "圣物"
+  },
+  {
+    "code": "item_copy_synergy",
+    "desc": "随机获得一张命运卡牌或者机会卡牌，可以指定一个棋子使它从最近的其他种族/职业的棋子永久获得一个额外的种族/职业",
+    "id": 16,
+    "image_url": "creed_of_omniscience_png.png",
+    "isuse": 0,
+    "level": 0,
+    "name": "大魔导师的袖里乾坤",
+    "type": "圣物"
+  },
+  {
+    "code": "item_card_fate",
+    "desc": "准备回合对一个棋子使用，使它从最近的其他种族棋子永久获得一个额外的种族",
+    "id": 17,
+    "image_url": "item_custom/card_fate.png",
+    "isuse": 0,
+    "level": 0,
+    "name": "魔术卡牌：命运",
+    "type": "圣物"
+  },
+  {
+    "code": "item_card_chance",
+    "desc": "准备回合对一个棋子使用，使它从最近的其他职业棋子永久获得一个额外的职业",
+    "id": 18,
+    "image_url": "item_custom/card_chance.png",
+    "isuse": 0,
+    "level": 0,
+    "name": "魔术卡牌：机会",
+    "type": "圣物"
+  },
+  {
+    "code": "item_double_lootbox",
+    "desc": "你的击杀野怪或玩家阵亡掉落的装备替换为战利品代币",
+    "id": 19,
+    "image_url": "item_custom/绿皮船长的宝藏.png",
+    "isuse": 0,
+    "level": 0,
+    "name": "绿皮船长的宝藏",
+    "type": "圣物"
+  },
+  {
+    "code": "item_more_interest",
+    "desc": "你的每回合金币利息不再具有4的上限",
+    "id": 20,
+    "image_url": "item_custom/宏伟宝库.png",
+    "isuse": 0,
+    "level": 0,
+    "name": "宏伟宝库",
+    "type": "圣物"
+  },
+  {
+    "code": "item_more_reward",
+    "desc": "每当你客场获胜时会获得4点经验值，客场终结和击杀额外获得（赏金×2）的经验值",
+    "id": 21,
+    "image_url": "item_custom/罪孽收割者.png",
+    "isuse": 0,
+    "level": 0,
+    "name": "罪孽收割者",
+    "type": "圣物"
+  },
+  {
+    "code": "item_upgrade_roll",
+    "desc": "你在招募棋子时将使用更高1级信使的招募概率",
+    "id": 22,
+    "image_url": "item_custom/精英招募官.png",
+    "isuse": 0,
+    "level": 0,
+    "name": "精英招募官",
+    "type": "圣物"
+  },
+  {
+    "code": "item_double_io",
+    "desc": "你在招募棋子时精灵守卫出现的概率×10，每招募到一个精灵守卫此概率就-2",
+    "id": 23,
+    "image_url": "item_custom/自然的恩赐.png",
+    "isuse": 0,
+    "level": 0,
+    "name": "自然的恩赐",
+    "type": "圣物"
+  },
+  {
+    "code": "item_destroy_piece",
+    "desc": "你合成★★棋子时获得（该棋子费用）的垄断基金，合成★★★棋子时获得（该棋子费用×全体玩家拥有的该棋子总个数）的垄断基金并摧毁棋库中所有同名棋子",
+    "id": 24,
+    "image_url": "item_custom/垄断契约.png",
+    "isuse": 0,
+    "level": 0,
+    "name": "垄断契约",
+    "type": "圣物"
+  },
+  {
+    "code": "item_friends_discount",
+    "desc": "你招募已拥有棋子的价格减半",
+    "id": 25,
+    "image_url": "item_custom/亲友折扣.png",
+    "isuse": 0,
+    "level": 0,
+    "name": "亲友折扣",
+    "type": "圣物"
+  },
+  {
+    "code": "item_shrink_meister",
+    "desc": "你的招募棋子有60%概率仅花费1金币，并使用-2等级信使的招募概率",
+    "id": 26,
+    "image_url": "item_custom/不稳定的缩小射线.png",
+    "isuse": 0,
+    "level": 0,
+    "name": "不稳定的缩小射线",
+    "type": "圣物"
+  },
+  {
+    "code": "item_vampiric_embrace",
+    "desc": "你客场获胜对其他玩家造成伤害时+40%信使吸血。当你的信使生命值吸满100时将会获得一个树之祭祀",
+    "id": 27,
+    "image_url": "item_custom/吸血鬼獠牙.png",
+    "isuse": 0,
+    "level": 0,
+    "name": "吸血鬼獠牙",
+    "type": "圣物"
+  },
+  {
+    "code": "item_skip_battle",
+    "desc": "每当你的信使受到伤害，可以跳过下一个非战利品回合的战斗阶段。跳过的战斗会视为失败",
+    "id": 28,
+    "image_url": "item_custom/幸存者.png",
+    "isuse": 0,
+    "level": 0,
+    "name": "幸存者",
+    "type": "圣物"
+  }
+]
