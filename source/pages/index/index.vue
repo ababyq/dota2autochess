@@ -14,7 +14,7 @@
 
 		<view style="padding-bottom: 360rpx;">
 			<view class="chooseCard"
-				style="position: fixed; bottom: 50rpx; left: 0; right: 0; z-index: 10000; margin: 20rpx;border-radius: 30rpx;"
+				style="position: fixed; bottom: 20rpx; left: 0; right: 0; z-index: 10000; margin: 20rpx;border-radius: 30rpx;"
 				v-show="active !== 6">
 				<!-- 列表模式（原有） -->
 				<view class="fettercard" v-if="choosePool.length>0 && fetterViewMode === 'list' && choosefetters.some(f => f.isActive)">
@@ -117,15 +117,15 @@
 					</view>
 				</view>
 				<view class="chooseRagne" v-if="choosePool.length>0 || selectedWheelFetters.length>0">
-					<view @click="removeChess(chess,index)" v-for="(chess,index) in choosePool"
-						class="chooseItem choosebg" :key="index">
-						<image style="width: 64rpx;height: 64rpx;" :src="chess.photo" alt="" />
-					</view>
 					<!-- 奇观轮已选羁绊展示 -->
 					<view v-for="(fetter, index) in selectedWheelFetters" :key="'wheel-'+index"
 						class="chooseItem wheel-fetter-item" @click="removeWheelFetter(index)">
 						<image :src="fetter.photo" style="width: 64rpx; height: 64rpx;" mode="aspectFit" />
 						<image class="wheel-badge" src="/static/items/item_custom/rm_wheel_of_wonder.png" mode="aspectFit" />
+					</view>
+					<view @click="removeChess(chess,index)" v-for="(chess,index) in choosePool"
+						class="chooseItem choosebg" :key="index" >
+						<image style="width: 64rpx;height: 64rpx;" :src="chess.photo" alt="" />
 					</view>
 				</view>
 
