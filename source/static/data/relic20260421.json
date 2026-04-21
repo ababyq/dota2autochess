@@ -24,7 +24,7 @@
     "desc": "在准备回合隐匿棋盘上的棋子。当你的信使受到伤害时，下个非战利品回合会同时隐匿信使并跳过战斗阶段",
     "id": 3,
     "image_url": "item_custom/帷幕2.png",
-    "isuse": 0,
+    "isuse": 1,
     "level": 0,
     "name": "帷幕",
     "type": "圣物"
@@ -277,36 +277,6 @@
     "isuse": 0,
     "level": 0,
     "name": "幸存者",
-    "type": "圣物"
-  },
-  {
-    "code": "item_super_uprank",
-    "desc": "购买已拥有的棋子时有20%概率直接购买到★★棋子。",
-    "id": 29,
-    "image_url": "conjurers_catalyst_png.png",
-    "isuse": 1,
-    "level": 0,
-    "name": "启明星",
-    "type": "圣物"
-  },
-  {
-    "code": "item_rank_damage",
-    "desc": "根据你的信使已损失的生命值，主场战败受到的伤害减少（1~10）点，客场战胜造成的伤害提高（1~10）点。注：每损失10%生命值，减少/提高的伤害都会增加1点，最多10点。",
-    "id": 31,
-    "image_url": "defiant_shell_png.png",
-    "isuse": 1,
-    "level": 0,
-    "name": "不羁甲壳",
-    "type": "圣物"
-  },
-  {
-    "code": "item_free_draw",
-    "desc": "招募棋子时如果未招募到已有棋子，会返还随机（1~2）金币。注：连续未招募到已有棋子，会使返还2金币的概率逐渐提升。",
-    "id": 32,
-    "image_url": "weighted_dice_png.png",
-    "isuse": 1,
-    "level": 0,
-    "name": "加重骰子",
     "type": "圣物"
   }
 ]

@@ -11,7 +11,7 @@
  Target Server Version : 80036
  File Encoding         : 65001
 
- Date: 01/04/2026 16:12:05
+ Date: 21/04/2026 12:59:55
 */
 
 SET NAMES utf8mb4;
@@ -183,7 +183,7 @@ INSERT INTO `fetter` VALUES (2, 0, '1', '6战士', 6, '所有友方战士护甲+
 INSERT INTO `fetter` VALUES (3, 0, '1', '9战士', 9, '所有友军受到物理/魔法伤害时反弹（当前护甲×1.5）点纯粹伤害');
 INSERT INTO `fetter` VALUES (4, 0, '2', '3刺客', 3, '所有友方刺客攻击有15%概率造成3倍伤害');
 INSERT INTO `fetter` VALUES (5, 0, '2', '6刺客', 6, '所有友方刺客攻击有15%概率造成4倍伤害');
-INSERT INTO `fetter` VALUES (6, 0, '2', '9刺客', 9, '所有友方刺客的背刺跳跃总是造成最高可能倍数的暴击伤害，每当击杀敌人或每15秒获得一次额外的背刺跳跃');
+INSERT INTO `fetter` VALUES (6, 0, '2', '9刺客', 9, '所有友方刺客的背刺跳跃总是造成最高可能倍数的暴击伤害，每当击杀敌人或每10秒获得一次额外的背刺跳跃');
 INSERT INTO `fetter` VALUES (7, 0, '3', '3猎人', 3, '猎人攻击有50%概率无视闪避，目标护甲-5，持续5秒');
 INSERT INTO `fetter` VALUES (8, 0, '3', '6猎人', 6, '猎人攻击有100%概率无视闪避，目标护甲-10，持续10秒');
 INSERT INTO `fetter` VALUES (9, 0, '3', '9猎人', 9, '精准射击击退敌人1格并发动一次额外攻击');
@@ -219,9 +219,9 @@ INSERT INTO `fetter` VALUES (38, 1, '15', '6精灵', 6, '精灵有40%闪避');
 INSERT INTO `fetter` VALUES (39, 1, '15', '9精灵', 9, '闪避时隐身1秒并复制攻击者镜像');
 INSERT INTO `fetter` VALUES (40, 1, '16', '3人类', 3, '准备回合获得2经验');
 INSERT INTO `fetter` VALUES (41, 1, '16', '6人类', 6, '主场获胜且有1个人类存活，获得（信使等级-2）经验');
-INSERT INTO `fetter` VALUES (42, 1, '17', '2娜迦', 2, '友军获得10%技能伤害护盾');
-INSERT INTO `fetter` VALUES (43, 1, '17', '4娜迦', 4, '友军获得30%技能伤害护盾');
-INSERT INTO `fetter` VALUES (44, 1, '17', '6娜迦', 6, '娜迦护盾每3秒对周围造成（吸收伤害）魔法伤害');
+INSERT INTO `fetter` VALUES (42, 1, '17', '2娜迦', 2, '友军获得15%技能伤害护盾');
+INSERT INTO `fetter` VALUES (43, 1, '17', '4娜迦', 4, '友军获得35%技能伤害护盾');
+INSERT INTO `fetter` VALUES (44, 1, '17', '6娜迦', 6, '所有友方娜迦棋子获得效果：每次受到非纯粹伤害时，会反弹（自身魔法抗性所减免的伤害量×1.5）点伤害。');
 INSERT INTO `fetter` VALUES (45, 1, '18', '2巨魔', 2, '友军攻速+20%');
 INSERT INTO `fetter` VALUES (46, 1, '18', '4巨魔', 4, '友军攻速+50%');
 INSERT INTO `fetter` VALUES (47, 1, '18', '6巨魔', 6, '每次攻击命中攻速+20%，最多7层');
@@ -439,7 +439,7 @@ CREATE TABLE `item_relic`  (
 -- ----------------------------
 INSERT INTO `item_relic` VALUES (1, '哼哼井武器匠', 'item_upgrade_lootbox', 0, '圣物', '你重铸装备获得的战利品代币的等级+1。武器匠累计重铸2次战利品代币后就会离去', 'item_custom/哼哼井武器匠.png', 1);
 INSERT INTO `item_relic` VALUES (2, '明暗终途', 'item_streak_plus', 0, '圣物', '你的连胜/连败不会中断。圣物消失时将根据持有期间最高的奖励/补偿和本局已选取圣物数量获得一个战利品代币', 'item_custom/明暗终途2.png', 1);
-INSERT INTO `item_relic` VALUES (3, '帷幕', 'item_conceal_prepare', 0, '圣物', '在准备回合隐匿棋盘上的棋子。当你的信使受到伤害时，下个非战利品回合会同时隐匿信使并跳过战斗阶段', 'item_custom/帷幕2.png', 1);
+INSERT INTO `item_relic` VALUES (3, '帷幕', 'item_conceal_prepare', 0, '圣物', '在准备回合隐匿棋盘上的棋子。当你的信使受到伤害时，下个非战利品回合会同时隐匿信使并跳过战斗阶段', 'item_custom/帷幕2.png', 0);
 INSERT INTO `item_relic` VALUES (4, '狱卒的钥匙', 'item_free_ban', 0, '圣物', '你可以免费屏蔽任意种族/职业。如果已经屏蔽，则返还所花费的金币', 'item_custom/狱卒的钥匙2.png', 1);
 INSERT INTO `item_relic` VALUES (5, '第二次机会', 'item_second_chance', 0, '圣物', '当你使用选项类消耗性物品，或每回合开始自动招募棋子时有机会刷新一次选项面板，获取其他的选择', 'item_custom/第二次机会.png', 1);
 INSERT INTO `item_relic` VALUES (6, '贪魔蛋', 'item_egg', 0, '圣物', '将一个棋子放进蛋中，每个回合开始时蛋都有概率长大，你可以随时出售蛋并重新孵化出该棋子，它的星级取决于蛋的大小', 'precious_egg_png.png', 1);
@@ -465,6 +465,9 @@ INSERT INTO `item_relic` VALUES (25, '亲友折扣', 'item_friends_discount', 0,
 INSERT INTO `item_relic` VALUES (26, '不稳定的缩小射线', 'item_shrink_meister', 0, '圣物', '你的招募棋子有60%概率仅花费1金币，并使用-2等级信使的招募概率', 'item_custom/不稳定的缩小射线.png', 0);
 INSERT INTO `item_relic` VALUES (27, '吸血鬼獠牙', 'item_vampiric_embrace', 0, '圣物', '你客场获胜对其他玩家造成伤害时+40%信使吸血。当你的信使生命值吸满100时将会获得一个树之祭祀', 'item_custom/吸血鬼獠牙.png', 0);
 INSERT INTO `item_relic` VALUES (28, '幸存者', 'item_skip_battle', 0, '圣物', '每当你的信使受到伤害，可以跳过下一个非战利品回合的战斗阶段。跳过的战斗会视为失败', 'item_custom/幸存者.png', 0);
+INSERT INTO `item_relic` VALUES (29, '启明星', 'item_super_uprank', 0, '圣物', '购买已拥有的棋子时有20%概率直接购买到★★棋子。', 'conjurers_catalyst_png.png', 1);
+INSERT INTO `item_relic` VALUES (31, '不羁甲壳', 'item_rank_damage', 0, '圣物', '根据你的信使已损失的生命值，主场战败受到的伤害减少（1~10）点，客场战胜造成的伤害提高（1~10）点。注：每损失10%生命值，减少/提高的伤害都会增加1点，最多10点。', 'defiant_shell_png.png', 1);
+INSERT INTO `item_relic` VALUES (32, '加重骰子', 'item_free_draw', 0, '圣物', '招募棋子时如果未招募到已有棋子，会返还随机（1~2）金币。\r\n\r\n注：连续未招募到已有棋子，会使返还2金币的概率逐渐提升。', 'weighted_dice_png.png', 1);
 
 -- ----------------------------
 -- Table structure for item_token
