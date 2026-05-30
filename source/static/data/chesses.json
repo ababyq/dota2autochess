@@ -550,21 +550,6 @@
     "sort": 39
   },
   {
-    "cost": 3,
-    "desc": "剧毒",
-    "icon": "npc_dota_hero_venomancer_png.png",
-    "id": 52,
-    "image": "chess_veno_png.png",
-    "isuse": 1,
-    "name": "剧毒术士",
-    "occupation": "6",
-    "race": "20,29",
-    "skill": "veno_ward",
-    "skill_desc": "瘟疫守卫：在周围空格子召唤魔法抗性极高的瘟疫守卫攻击敌人",
-    "skill_type": "点目标",
-    "sort": 52
-  },
-  {
     "cost": 2,
     "desc": "米波，狗头",
     "icon": "npc_dota_hero_meepo_png.png",
@@ -625,7 +610,7 @@
     "sort": 92
   },
   {
-    "cost": 3,
+    "cost": 2,
     "desc": "小娜迦",
     "icon": "npc_dota_hero_naga_siren_png.png",
     "id": 97,
@@ -660,7 +645,7 @@
     "id": 107,
     "isuse": 1,
     "name": "噬魂鬼",
-    "occupation": "9",
+    "occupation": "6",
     "race": "22,32",
     "skill": "life_stealer_rage",
     "skill_desc": "狂暴：进入狂暴状态，暂时获得魔法抗性加成，并免疫纯粹伤害",
@@ -933,6 +918,36 @@
     "skill_desc": "掘地穿刺：钻入地面隧道前进，穿出时伤害并眩晕直线上的敌人",
     "skill_type": "点目标",
     "sort": 51
+  },
+  {
+    "cost": 3,
+    "desc": "剧毒",
+    "icon": "npc_dota_hero_venomancer_png.png",
+    "id": 52,
+    "image": "chess_veno_png.png",
+    "isuse": 1,
+    "name": "剧毒术士",
+    "occupation": "6",
+    "race": "20,29",
+    "skill": "veno_ward",
+    "skill_desc": "瘟疫守卫：在周围空格子召唤魔法抗性极高的瘟疫守卫攻击敌人",
+    "skill_type": "点目标",
+    "sort": 52
+  },
+  {
+    "cost": 3,
+    "desc": "小牛",
+    "icon": "npc_dota_hero_earthshaker_png.png",
+    "id": 71,
+    "image": "chess_es_png.png",
+    "isuse": 1,
+    "name": "撼地神牛",
+    "occupation": "10",
+    "race": "31",
+    "skill": "gouhe",
+    "skill_desc": "沟壑：用图腾猛击地面，裂开地面制造岩脊，击飞敌人并造成物理伤害和眩晕",
+    "skill_type": "点目标",
+    "sort": 71
   },
   {
     "cost": 3,
@@ -1290,21 +1305,6 @@
     "skill_desc": "丝质重器：缠绕最近的目标，使其攻击有概率落空，被攻击受额外魔法伤害，死亡孵化小蜘蛛",
     "skill_type": "被动",
     "sort": 70
-  },
-  {
-    "cost": 3,
-    "desc": "小牛",
-    "icon": "npc_dota_hero_earthshaker_png.png",
-    "id": 71,
-    "image": "chess_es_png.png",
-    "isuse": 1,
-    "name": "撼地神牛",
-    "occupation": "10",
-    "race": "31",
-    "skill": "gouhe",
-    "skill_desc": "沟壑：用图腾猛击地面，裂开地面制造岩脊，击飞敌人并造成物理伤害和眩晕",
-    "skill_type": "点目标",
-    "sort": 71
   },
   {
     "cost": 4,

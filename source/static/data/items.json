@@ -192,11 +192,11 @@
   },
   {
     "code": "item_qinwangduandao",
-    "desc": "攻击力+25。携带者对同种族/职业的敌方棋子造成的伤害+50%",
+    "desc": "攻击力+10。携带者对同种族/职业的敌方棋子造成的伤害+25%",
     "icon": "princes_knife_png.png",
     "id": 22,
     "isuse": 1,
-    "level": 2,
+    "level": 1,
     "name": "亲王短刀",
     "type": "普通"
   },
@@ -459,11 +459,11 @@
   },
   {
     "code": "item_rengu",
-    "desc": "光环：周围范围内的友军获得效果：攻击速度+35%",
+    "desc": "光环：周围范围内的友军获得效果：攻击速度+25%",
     "icon": "ancient_janggo_png.png",
     "id": 50,
     "isuse": 1,
-    "level": 3,
+    "level": 2,
     "name": "韧鼓",
     "recipe": "item_yuanlingxidai;item_wangzhezhijie;item_lilianghuwan",
     "type": "普通"
@@ -531,6 +531,17 @@
     "level": 3,
     "name": "艾维娜之羽",
     "recipe": "item_konglingguajian;item_fengkuangmianju",
+    "type": "普通"
+  },
+  {
+    "code": "item_goutourenjiubei",
+    "desc": "携带者视为狗头人。携带者及其同名棋子攻速+25%，变身棋子可以继承",
+    "icon": "kobold_cup_png.png",
+    "id": 93,
+    "isuse": 1,
+    "level": 3,
+    "name": "狗头人酒杯",
+    "recipe": "",
     "type": "普通"
   },
   {
